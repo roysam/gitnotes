@@ -30,4 +30,9 @@ git config user.name "Roy Sam"
 git config user.email "roy.sam@live.com"
 
 
+# Git commands
+
+git status
+git commit
+git add [.|*|filename]
 
