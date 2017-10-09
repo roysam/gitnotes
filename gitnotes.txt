@@ -1,0 +1,33 @@
+
+
+# Git Global Initialization
+git config --global user.name "Roy Sam"
+git config --global user.email "roysam@juniper.net"
+git config --system core.editor "/usr/bin/vi"
+
+cd /root
+bash-3.2# cat .gitconfig 
+[user]
+        name = Roy Sam
+        email = roysam@juniper.net
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
+
+bash-3.2# cat /etc/gitconfig 
+[core]
+        editor = /usr/bin/vi
+
+
+# Git Local Initialization
+
+cd /home/local_folder
+
+git init 
+git config user.name "Roy Sam"
+git config user.email "roy.sam@live.com"
+
+
+
