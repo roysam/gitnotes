@@ -33,6 +33,6 @@ git config user.email "roy.sam@live.com"
 # Git commands
 
 git status
-git commit
+git commit -m "Add comments per commit"
 git add [.|*|filename]
 
