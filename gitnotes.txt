@@ -36,3 +36,17 @@ git status
 git commit -m "Add comments per commit"
 git add [.|*|filename]
 
+# Git Clone
+
+mkdir NEW_FOLDER
+cd NEW_FOLDER
+git clone ORIGINAL_FOLDER .
+
+# Commit changes
+
+# Staged changes for commit
+git add .
+git status
+git commit -m "comments"
+git status
+
