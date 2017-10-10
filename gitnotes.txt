@@ -50,3 +50,9 @@ git status
 git commit -m "comments"
 git status
 
+# Push to Github
+
+git remote add origin https://github.com/roysam/gitnotes.git
+git push -u origin master
+
+
