@@ -56,3 +56,8 @@ git remote add origin https://github.com/roysam/gitnotes.git
 git push -u origin master
 
 # Git Clone - Add compute SSH key to Git Account
+
+# Git Ignore - /etc/gitignore specify the filenames to ignore
+git config --global core.excludesfile '/etc/gitignore'
+git config --global -l
+
